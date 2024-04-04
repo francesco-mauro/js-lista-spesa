@@ -13,6 +13,7 @@ while (true) {
     // articolo = articolo.trim;
     if (!articolo.trim().length) {
         console.log(articolo, typeof articolo); 
+        // break;
         continue; 
         // Esce dal ciclo, c'è un modo per fargli ignorare gli spazi? ((trim? come si usa))
     }
